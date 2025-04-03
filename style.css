@@ -1,0 +1,27 @@
+body{
+    background-color: black;
+}
+
+h1{
+    color: #ffffff;
+    text-align: center;
+    font-size: 4em;
+    margin-top: 40px;
+}
+h2{
+    color: #ffffff;
+    text-align: left;
+    margin-left: 2em;
+    font-size: 1.5em;
+}
+.voltar{
+    width: 140px;
+    height: 70px;
+    margin-top: 3cm;
+}
+form{
+    color: #ffffff;
+}
+img{
+    text-align: center;
+}

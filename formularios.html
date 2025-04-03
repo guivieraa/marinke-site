@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formulários</title>
+</head>
+<body class="body-formulario">
+
+    <h1>formulários</h1><br><br>
+
+    <form action="formularios">
+        <label for="fname">primeiro nome</label><br>
+        <input type="text" name="fname" id="fname"><br><br>
+        <label for="lname">ultimo nome:</label><br>
+        <input type="text" name="lname" id="lname"><br><br>
+        <input type="submit" value="submit"><br><br><br>
+    </form>
+
+    <form action="/votacao.php">
+        <input type="radio" id="html" name="fav language" value="HTML">
+        <label for="html">HTML</label><br>
+        <input type="radio" id="css" name="fav language" value="CSS">
+        <label for="css">CSS</label><br>
+        <input type="radio" id="javascript" name="fav language" value="JavaScript">
+        <label for="javascript">JavaScript</label><br><br>
+        <input type="submit" value="Enviar"><br><br><br>
+    </form>
+
+    <form action="/gravar.php">
+        <input type="checkbox" id="vehiclel" name="vehiclel" value="mobilete">
+        <label for="vehicle1"> Mobilite</label><br>
+        <input type="checkbox" id="vehicle2" name="vehicle2" value="patinete">
+        <label for="vehicle2">Patinete</label><br>
+        <input type="checkbox" id="vehicle3" name="vehicle3" value="carro">
+        <label for="vehicle3">Gol Bola</label><br><br>
+        <input type="submit" value="Submit"><br><br><br>
+    </form>
+            
+    <form action="/gravar.php">
+        <label for="favcolor">Escolha a cor:</label>
+        <input type="color" id="favcolor" name="favcolor" value="#ff0000">
+        <input type="submit" value="submit"><br><br><br>
+    </form>
+
+    <form action="/actionpage.php">
+        <label for="birthday">data de nascimento:</label>
+        <input type="date" id="birthday" name="birthday">
+    </form>
+
+    <a href="index.html"><img src="/botao-voltar.png" alt="voltar" class="voltar"></a>
+
+</body>
+</html>
